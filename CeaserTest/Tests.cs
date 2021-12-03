@@ -16,5 +16,13 @@ namespace CeaserTest
             Assert.AreEqual(encrypt, "txlfn");
 
         }
+        [Test]
+        public void cipher_test()
+        {
+            var ceaser = new CeaserClass();
+            char encrypt = ceaser.cipher('q',3);
+            Assert.AreEqual(encrypt,'t');
+
+        }
     }
 }
