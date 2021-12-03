@@ -6,6 +6,7 @@ namespace Ceaser_cipher
     {
         static void Main(string[] args)
         {
+
             CeaserClass myclass = new CeaserClass();
             Console.WriteLine("Press 1 to complete " + "\n" + "Press 2 to quit");
             int input = Convert.ToInt32(Console.ReadLine());

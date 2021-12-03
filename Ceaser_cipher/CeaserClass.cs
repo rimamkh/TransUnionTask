@@ -17,12 +17,7 @@ namespace Ceaser_cipher
             this.input = Input;
             this.k = Key;
         }
-        public string Input 
-        {
-            get { return input; } 
-
-        }
-
+       
         public string Encipher(string input, int key)
         {
             string Myoutput = string.Empty;
